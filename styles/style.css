@@ -1,0 +1,151 @@
+/**** reset style *****/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* background-color: brown; */
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    scroll-behavior: unset;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/***** header *******/
+nav {
+    overflow: hidden;
+}
+.nav-container {
+    float: right;
+    margin: 20px 25px;
+}
+
+.nav-container > li {
+    float: left;
+    text-align: center;
+}
+.nav-container a {
+    padding: 5px 15px;
+}
+#icon_apps{
+    height: 21px;
+    width: auto;
+}
+#sign-in {
+    color: #fff;
+    background-color: #4584f0;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#sign-in:hover {
+    cursor: default;
+}
+
+/****** content *******/
+#logo {
+    margin: 100px auto 30px;
+    width: 300px;
+    display: block;
+}
+form {
+    overflow: hidden;
+}
+.search-container {
+    border: 1px #d3d1d1 solid;
+    border-radius: 30px;
+    min-width: 300px;
+    max-width: 600px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+#search-icon {
+    width: auto;
+    height: 30px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    background-color: transparent;
+}
+.search-container input[type="text"] {
+    position: absolute;
+    top: 20%;
+    border: none;
+    line-height: 20px;
+    color: rgb(99, 97, 109);
+    min-width: 500px;
+    max-width: 600px;
+}
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+.buttons button {
+    height: 35px;
+    text-align: center;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px 5px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.buttons button:hover {
+    color: #000;
+    background-color: #f8f8f8;
+    border: 1px #f2f2f2 solid;
+}
+/******* foooter ******/
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+.country {
+    padding: 10px 20px;
+    color: #5f6368;
+    border-top: 1px #e4e4e4 solid;
+}
+.btm-nav {
+    border-top: 1px #e4e4e4 solid;
+    height: 40px;
+}
+.btm-nav::after{
+    content: "";
+    clear: both;
+}
+.btm-nav ul {
+    margin: 10px 10px;
+    padding-left: 0px;
+}
+.btm-nav a {
+    color: #5f6368;
+    padding: 5px 15px;
+}
+.btm-nav1 {
+    float: left;
+}
+.btm-nav2 {
+    float: right;
+}
+.btm-nav1 li, .btm-nav2 li {
+    float: left;
+}
